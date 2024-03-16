@@ -12,9 +12,9 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/khoih-prog/ESPAsync_WiFiManager"
+    "url": "https://github.com/florian-iot/ESPAsync_WiFiManager-khoih-prog#flo"
   },
-  "homepage": "https://github.com/khoih-prog/ESPAsync_WiFiManager",
+  "homepage": "https://github.com/florian-iot/ESPAsync_WiFiManager-khoih-prog",
   "export": {
     "exclude": [
       "linux",
@@ -24,8 +24,8 @@
   },
   "dependencies": [
     {
-      "name": "AsyncTCP",
-      "version": "https://github.com/me-no-dev/AsyncTCP",
+      "name": "AsyncTCP-pbolduc",
+      "version": "https://github.com/florian-iot/AsyncTCP-pbolduc.git#flo",
       "platforms": [ "espressif32"]
     },
     {
@@ -34,8 +34,8 @@
       "platforms": [ "espressif8266"]
     },
     {
-      "name": "ESP Async WebServer",
-      "version": "https://github.com/khoih-prog/ESPAsyncWebServer",
+      "name": "ESPAsyncWebServer-WLED",
+      "version": "https://github.com/florian-iot/ESPAsyncWebServer-WLED#flo",  
       "platforms": ["espressif8266", "espressif32"]
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "name": "ESPAsyncDNSServer",
-      "version": "https://github.com/khoih-prog/ESPAsyncDNSServer",
+      "version": "https://github.com/guestisp/ESP32AsyncDNSServer",
       "platforms": ["espressif8266", "espressif32"]
     },
     {
